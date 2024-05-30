@@ -22,6 +22,13 @@
 
 }
 
+h1{
+    font-size: var(--crimson-text);
+    font-weight: 600;
+    color: var(--black);
+    font-size: 35px;
+}
+
 h2{
     font-size: var(--crimson-text);
     font-weight: 600;
@@ -136,7 +143,7 @@ nav ul{
     max-width: 1140px;
     margin: auto;
     padding: 80px 15px;
-    gap: 20px;
+    gap: 40px;
 }
 
 #section1 article:nth-child(1){
@@ -148,10 +155,6 @@ nav ul{
 
 #section1 article:nth-child(1) a{
     align-self: start;
-}
-
-#section1 div img{
-    width: 100%;
 }
 
 /* SECTION 2 */
@@ -183,7 +186,6 @@ nav ul{
 
 #section2 img{
     border-radius: 10px 10px 0 0;
-
 }
 
 #section2 article h3{
@@ -197,8 +199,6 @@ nav ul{
 #section2 article a{
     margin: 10px;
 }
-
-
 
 #section2 a{
     align-self: start;
@@ -215,8 +215,8 @@ nav ul{
     grid-template-columns: repeat(2, 1fr);
     max-width: 1140px;
     margin: auto;
-    padding: 80px 15px;
-    gap: 20px;
+    gap: 40px;
+    padding: 0px 15px 80px 15px;
 }
 
 #section3 article{
@@ -229,6 +229,13 @@ nav ul{
 #section3 article a{
     align-self: start;
 }
+
+#section3 h2{
+    max-width: 1140px;
+    margin: auto;
+    padding: 80px 15px 15px 15px;
+}
+
 
 /* SECTION 4 */
 
